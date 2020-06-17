@@ -11,7 +11,7 @@ body {
 
 #header {
     width: 100%;
-    background-color: #d64646;
+    background:linear-gradient(to right,#fff,#f00 );
     color: #fff;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,7 +23,10 @@ body {
 
 #menu a:hover {
     background-color: #fff;
-    color: #d64646
+    color: #f00;
+    text-decoration: underline;
+    text-decoration-color: #000;
+
 }
 
 #menu {
@@ -66,7 +69,7 @@ a {
 .banner {
     width: 100%;
     height: 557px;
-    background-image: url(../images/banner.jpg);
+    background-image: url(https://images.unsplash.com/photo-1525328437458-0c4d4db7cab4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,7 +77,7 @@ a {
 .banner-padaria{
     width: 100%;
     height:557px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_960_720.jpg);
+    background-image: url(https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,7 +216,7 @@ a {
 }
 
 .frios{
-    background-image: url(https://images.vexels.com/media/users/3/74469/preview2/c5bff3bb11350f95c961bfd93183ba91-etiqueta-do-logotipo-do-vintage-da-padaria-do-queque.jpg);
+    background-image: url(https://images.unsplash.com/photo-1554602530-f415ffd0294a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -245,7 +248,7 @@ a {
 }
 
 .paes{
-    background-image: url(https://images.vexels.com/media/users/3/74469/preview2/c5bff3bb11350f95c961bfd93183ba91-etiqueta-do-logotipo-do-vintage-da-padaria-do-queque.jpg);
+    background-image: url(https://images.unsplash.com/photo-1554602530-f415ffd0294a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -285,17 +288,27 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.conteudo3{
+    width: 100%;
+    padding: 30px;
+    background:linear-gradient(to right,#fff,#f00 );
+    clear: both;
+}
+
 .conteudo3 h1{
-        padding: 100px;
+        padding: 40px;
         font-size: 45px;
+        font-style: italic;
+        color: #fff;
+
 }
 
 .rodape{
-    background-color:#d64646 ;
+    background:linear-gradient(#fff,#f00 );
     width: 100%;
     padding: 40px;
     text-align: center;
-    border-top: 10px solid rgb(139, 137, 137);
+    border-top: 10px solid #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }

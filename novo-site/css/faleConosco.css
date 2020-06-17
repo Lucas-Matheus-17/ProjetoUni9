@@ -4,7 +4,7 @@
 }
 
 body {
-   background-color: rgba(120, 120, 120,0.4);
+    background:linear-gradient(to left,#fff,#f00 );
    background-clip: padding-box;
    background-repeat: no-repeat;
    background-size: cover;
@@ -18,7 +18,7 @@ body {
  /* menu */
 #header {
     width: 100%;
-    background-color: #d64646;
+    background:linear-gradient(to right,#fff,#f00 );
     color: #fff;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,7 +30,9 @@ body {
 
 #menu a:hover {
     background-color: #fff;
-    color: #d64646
+    color: #f00;
+    text-decoration: underline;
+    text-decoration-color: #000;
 }
 
 #menu {
@@ -69,7 +71,7 @@ ul li {
 
 /* parte direta da tela */
 .control h2{
-        color: #d64646;
+        color: #f00;
         font-size: 40px;
         font-style: normal;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,7 +80,7 @@ ul li {
 
 .control iframe{
         width: 500px;
-        height: 500px;
+        height: 380px;
         border: 10px solid rgba(206, 198, 198, 0.4);
         margin-top: 10px;
         background-clip: padding-box;
@@ -90,7 +92,7 @@ ul li {
 h1 {
     margin-left: 55px;
     margin-top: 15px;
-    color: #d64646;
+    color: #f00;
     font-size: 50px;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -104,7 +106,7 @@ form input {
     height: 30px;
     margin-top: 20px;
     margin-left: 50px;
-    border: 1px solid #d64646;
+    border: 1px solid #f00;
     outline: 0;
     padding-left: 10px;
 }
@@ -113,7 +115,7 @@ textarea {
     resize: none;
     height: 140px;
     width: 50%;
-    border: 1px solid #d64646;
+    border: 1px solid #f00;
     margin-top: 20px;
     margin-left: 50px;
     outline: 0;
@@ -126,11 +128,12 @@ form input[type="submit"] {
     height: 55px;
     font-size: 20px;
     margin-left: 50px;
-    background-color: #d64646;
+    margin-bottom: 10px;
+    background-color: #f00;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
-    text-shadow: 2px 2px 2px #111111;
+    text-shadow: 1px 1px 1px #111111;
 }
 
 form input[type="submit"]:hover {
@@ -153,11 +156,11 @@ a {
 }
 
 .rodape{
-    background-color:#d64646 ;
+    background:linear-gradient(#fff,#f00 );
     width: 100%;
     padding: 40px;
     text-align: center;
-    border-top: 10px solid rgb(139, 137, 137);
+    border-top: 10px solid #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     clear: both;
    

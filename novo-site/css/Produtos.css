@@ -8,13 +8,10 @@ html,
 body {
     height: 100%;
 }
-#Eletronicos{
-    float: left;
-}
 
 #header {
     width: 100%;
-    background-color: #d64646;
+    background:linear-gradient(to right,#fff,#f00 );
     color: #fff;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +23,10 @@ body {
 
 #menu a:hover {
     background-color: #fff;
-    color: #d64646
+    color: #f00;
+    text-decoration: underline;
+    text-decoration-color: #000;
+
 }
 
 #menu {
@@ -112,7 +112,7 @@ input[type=number]{
         width: 50%;
         margin: 10px 0;
         outline: 0;
-        border: 2px solid #FE3026;
+        border: 2px solid #f00;
         height: 20px;
         border-radius: 8px;
         padding: 4px;
@@ -129,6 +129,18 @@ input[type=number]{
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
     
+}
+
+.texto-eletronico{
+   width: 100%;
+   font-size: 30px;
+   clear: both;
+   text-align: center;
+   padding: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 1px 1px 1px #111;
+   background:radial-gradient(#fff,#f00 );
+   border:2px solid;
 }
 
 
@@ -163,7 +175,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .product-here img {
-    max-width: 258px;
+    width: 100%;
     border-bottom: 1px solid #EEE;
     display: block;
     margin-bottom: 0.5em;
@@ -187,7 +199,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .product-btn {
-    background: #FE2F18;
+    background: #f00;
     padding: 0.4em 1em;
     color: #fff;
     border-radius: 30em;
@@ -244,11 +256,11 @@ h4, a{
 }
  /*********************************** footer ***************************************************/
 .rodape{
-    background-color:#d64646 ;
+    background:linear-gradient(#fff,#f00 );
     width: 100%;
     padding: 40px;
     text-align: center;
-    border-top: 10px solid rgb(139, 137, 137);
+    border-top: 10px solid #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     clear: both;
    

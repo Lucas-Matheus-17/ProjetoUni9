@@ -11,7 +11,7 @@ body {
 
 #header {
     width: 100%;
-    background-color: #d64646;
+    background:linear-gradient(to right,#fff,#f00 );
     color: #fff;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,7 +23,9 @@ body {
 
 #menu a:hover {
     background-color: #fff;
-    color: #d64646
+    color: #f00;
+    text-decoration: underline;
+    text-decoration-color: #000;
 }
 
 #menu {
@@ -123,7 +125,7 @@ a {
         margin-top: 20px;
         margin-bottom: 10px;
         border-radius: 10px;
-        box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.8);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7)
 }
 
 /************************************ formatação da sessao2**************************************************/
@@ -147,7 +149,6 @@ a {
 .conteudo2 img{
 
         width: 80%;
-        
         text-align: center;
         
 
@@ -155,7 +156,7 @@ a {
 
 .conteudo2 p{
         text-align: center;
-        color: rgb(52, 106, 167);
+        color:#000;
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
@@ -172,13 +173,13 @@ a {
 }
 
 .btn input{
-        width: 40%;
+        width: 20%;
         padding: 20px;
         margin-top: 30px;
-        border-radius: 20px;
+        border-radius: 5px;
         outline: 0;
         border: 0;
-        background-color:#d64646 ;
+        background-color:#f00 ;
         color: #fff;
         font-size: 30px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -191,11 +192,11 @@ a {
 
 
 .rodape{
-    background-color:#d64646 ;
+    background:linear-gradient(#fff,#f00 );
     width: 100%;
     padding: 40px;
     text-align: center;
-    border-top: 10px solid rgb(139, 137, 137);
+    border-top: 10px solid #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
